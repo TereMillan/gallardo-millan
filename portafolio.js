@@ -1,7 +1,7 @@
 // PRIMERO CREAMOS UNA VARIABLE QUE CONTIENE TODOS LOS DATOS DE TUS TRABAJOS
 var trabajos = [
 {
-    figure: "media/foto-01.jpg",
+    figure: "media/foto-01.JPG",
     title: "Montípora",
     about: "Luminaria de cera de vela, que a través de su textura y luz provoca un ambiente de relajo.",
 }, {
