@@ -1,0 +1,107 @@
+<!DOCTYPE HTML>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>rebe/tere</title>
+    <meta name="title" content=" ">
+    <link rel="icon" type="image/png" href="media/favicon.png" />
+    <!-- Metadatos Genéricos -->
+    <meta name="description" content="*llega el verano*">
+    <meta name="image" content="*cambiar por una URL de la imagen en línea*">
+    <!-- Metadatos para Schema.org for Google -->
+    <meta itemprop="name" content="*nombre*">
+    <meta itemprop="description" content="*llega el verano*">
+    <meta itemprop="image" content="*cambiar por una URL de la imagen en línea*">
+    <!-- Metadatos para Twitter -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="*nombre*">
+    <meta name="twitter:description" content="*llega el verano*">
+    <meta name="twitter:image" content="*cambiar por una URL de la imagen en línea*">
+    <!-- Metadatos para Open Graph general (Facebook y Pinterest) -->
+    <meta name="og:title" content="*nombre*">
+    <meta name="og:description" content="*llega el verano*">
+    <meta name="og:image" content="*cambiar por una URL de la imagen en línea*">
+    <meta name="og:locale" content="es_CL">
+    <meta name="og:type" content="website">
+    <!-- Ahora vinculamos el estilo -->
+    <link rel="stylesheet" href="estilo.css" type="text/css">
+</head>
+
+<body>
+    <div id="contenido">
+        <header>
+            <h1>REBE/TERE</h1>
+            <h2>Bienvenidxs</h2>
+        </header>
+        <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+            <source src="media/video.mp4" type="video/mp4">
+        </video>
+
+        <h3>NOSOTRAS SOMOS</h3>
+        <div id="somos">
+
+            <div class="dupla primera">
+                <h4>REBEKA GALLARDO</h4>
+                <h5>Fotógrafa, ilustradora, diseño textil
+                <address><a href="mailto:rbgallardo@uc.cl">rbgallardo@uc.cl</a></address></h5>
+                  <address><a href="https://www.instagram.com/fa.la.z/?hl=es-la">@falaz </a></address></h5>
+
+            </div>
+
+            <div class="dupla segunda">
+                <h4>TERESA MILLÁN</h4>
+                <h5>Ilustradora y diseño de servicios
+                  <address><a href="mailto:tamillan@uc.cl">tamillan@uc.cl</a></address></h5>
+                    <address><a href="https://www.instagram.com/mayonesacereza/?hl=es-la">@cerezamayonesa</a></address></h5>
+
+
+
+
+            </div>
+
+            <hr />
+        </div><!-- acá cerramos el div id="somos"-->
+
+        <h3>PORTAFOLIO</h3>
+
+        <div id="portafolio">
+
+            <!--acá se colocan y organizan las cosas con programación-->
+
+        </div><!-- acá cerramos el div id="portafolio"-->
+
+
+
+
+
+          </div>
+
+        <footer>
+            <p>Procesos de Producción · sección web · primer semestre · 2019</p>
+        </footer>
+
+    </div><!-- acá abajo cerramos el div id="contenido"-->
+
+    <!-- Lo que sigue SI es PROGRAMACIÓN -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js"></script>
+    <script>
+        // ESTO SIRVE PARA ARREGLAR CADA ÍTEM DEL PORTAFOLIO COMO ALBAÑILERÍA (MASONRY)
+        window.onload = function() {
+            var container = document.querySelector('#portafolio');
+            var msnry = new Masonry(portafolio, {
+                itemSelector: '.item'
+            });
+        };
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="portafolio.js"></script>
+
+
+
+</body>
+
+</html>
